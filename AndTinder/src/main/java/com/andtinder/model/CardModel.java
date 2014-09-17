@@ -17,13 +17,14 @@
 
 package com.andtinder.model;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
 public class CardModel {
 
+    public int percent;
+    public int colorRes;
 	private String   title;
 	private String   description;
 	private Drawable cardImageDrawable;
